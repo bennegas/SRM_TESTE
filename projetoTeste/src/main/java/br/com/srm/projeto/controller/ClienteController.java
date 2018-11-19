@@ -21,7 +21,7 @@ public class ClienteController {
 	@PostMapping
 	public ResponseDTO calcularTaxa (@RequestBody RequestDTO request) {
 		
-		return null;
+		return service.calcularTaxaJuros(request);
 	}
 
 }

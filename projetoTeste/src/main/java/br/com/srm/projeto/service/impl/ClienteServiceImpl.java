@@ -23,7 +23,7 @@ public class ClienteServiceImpl implements ClienteService{
 
 	
 	@Override
-	public ResponseDTO calcularTaxaJuros(RequestDTO request) throws Exception {
+	public ResponseDTO calcularTaxaJuros(RequestDTO request) {
 		
 		ResponseDTO retorno = new ResponseDTO();
 		

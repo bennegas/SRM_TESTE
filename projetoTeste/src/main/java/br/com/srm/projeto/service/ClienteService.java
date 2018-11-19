@@ -5,6 +5,6 @@ import br.com.srm.projeto.dto.response.ResponseDTO;
 
 public interface ClienteService {
 
-	ResponseDTO calcularTaxaJuros(RequestDTO request) throws Exception;
+	ResponseDTO calcularTaxaJuros(RequestDTO request);
 	
 }
